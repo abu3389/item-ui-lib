@@ -1,10 +1,9 @@
-import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import fg from 'fast-glob'
 import fs from 'fs-extra'
 import less from 'less'
 
-const itemDir = fileURLToPath(new URL('../packages/item-ui', import.meta.url))
+const itemDir = path.join(process.cwd(), 'packages/item-ui')
 
 const lessFiles = fg.sync(['src/**/style/index.less', '!src/style'], {
   cwd: itemDir,
@@ -24,4 +23,4 @@ async function complie() {
   }
 }
 
-complie()
+complie() 
