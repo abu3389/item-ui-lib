@@ -41,7 +41,7 @@ import 'unisc-item-ui/es/button/style/index.css'
 
 ## 开发
 
-本项目分为内外2层，外层主要是docs vitepress，和插件、color样式的配置，核心Core打包的是packages/item-ui，开发也需要在item-ui里执行install命令，内层外层都要安装响应的依赖。然后到最外层启动项目，要打包时，直接运行npm run publish:lib，这个命令会启动build脚本，在脚本下面有打包、发布npm、发布github仓库，如果你不需要发布github把相关函数注释即可
+本项目分为内外2层，外层主要是docs vitepress，和插件、color样式的配置，核心Core打包的是packages/item-ui。打包时，直接运行npm run publish:lib，这个命令会启动build脚本，在脚本下面有打包、发布npm、发布github仓库，如果你不需要发布github把相关函数注释即可
 ```shell
 # 安装依赖 
 pnpm install
