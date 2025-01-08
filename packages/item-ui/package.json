@@ -1,0 +1,57 @@
+{
+  "name": "unisc-item-ui",
+  "version": "0.0.110",
+  "description": "this is a vue3 ui library",
+  "author": "wuxs <317009160@qq.com>",
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vue3",
+    "components"
+  ],
+  "exports": {
+    ".": {
+      "types": "./es/index.d.ts",
+      "import": "./es/index.js",
+      "require": "./lib/index.js"
+    },
+    "./es/*": "./es/*",
+    "./dist/*": "./dist/*",
+    "./lib/*": "./lib/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@floating-ui/vue": "^1.0.2",
+    "@heroicons/vue": "^2.1.5",
+    "@vueuse/components": "^11.0.3",
+    "@vueuse/core": "^10.11.0",
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.12",
+    "element-plus": "^2.7.8",
+    "lodash": "^4.17.21",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tailwindcss": "^3.4.4",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-element-plus": "^0.8.0",
+    "unplugin-vue-components": "^0.27.2",
+    "vite-plugin-style-import": "^2.0.0",
+    "vite-svg-loader": "^5.1.0"
+  }
+}

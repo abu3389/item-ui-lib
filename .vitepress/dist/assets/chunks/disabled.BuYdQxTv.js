@@ -1,0 +1,1 @@
+import{B as t}from"./index.DQ72aMia.js";import{_ as o,o as a,c,I as n,w as s,a as r}from"./framework.C1DFsOn5.js";const _={};function d(i,l){const e=t;return a(),c("div",null,[n(e,{disabled:""},{default:s(()=>[r(" 按钮 ")]),_:1})])}const u=o(_,[["render",d]]);export{u as default};
