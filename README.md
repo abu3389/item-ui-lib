@@ -1,7 +1,7 @@
 # unisc-item-ui
 
 这是一个基于vue3的UI框架 
-https://me7.cn/item-ui
+https://item-ui.me7.cn
 
 ## 安装
 
