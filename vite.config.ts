@@ -20,11 +20,7 @@ export default defineConfig({
   server: {
     port: 9090, // 设置端口号为 9090
   },
-  base:
-    process.env.NODE_ENV === "production" &&
-    process.env.BUILD_VERCEL === undefined
-      ? "/item-ui/"
-      : "/",
+  base: "",
   plugins: [
     AutoImport({
       resolvers: [ElementPlusResolver()],
