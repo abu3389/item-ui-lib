@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'unisc-item-ui',
-  base: process.env.NODE_ENV === 'production' && process.env.BUILD_VERCEL === undefined ? '/item-ui/' : '/',
+  base: process.env.NODE_ENV === 'production' && process.env.BUILD_VERCEL === undefined ? '' : '/',
   description: 'This is a vue component library',
   rewrites: {
     'docs/(.*)': '(.*)',
