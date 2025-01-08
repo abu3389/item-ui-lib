@@ -6,7 +6,7 @@ https://item-ui.me7.cn
 ## 安装
 
 ```shell
-pnpm i unisc-item-ui
+npm i unisc-item-ui
 ```
 
 ## 使用
